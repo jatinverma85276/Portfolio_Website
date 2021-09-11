@@ -52,6 +52,9 @@ def movies_portfolio():
 def blog_portfolio():
     return render_template("blog-portfolio.html")
 
+@app.route("/omnifood-portfolio")
+def omnifood_portfolio():
+    return render_template("omnifood-portfolio.html")
 
 if __name__ == "__main__":
     app.run(debug=True)
