@@ -1,0 +1,87 @@
+{% include 'header.html' %}
+
+  <main id="main">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <section id="breadcrumbs" class="breadcrumbs">
+      <div class="container">
+
+        <div class="d-flex justify-content-between align-items-center">
+          <h2>Portfolio Details</h2>
+          <ol>
+            <li><a href="{{ url_for('home')}}">Home</a></li>
+            <li>Portfolio Details</li>
+          </ol>
+        </div>
+
+      </div>
+    </section><!-- End Breadcrumbs -->
+
+    <!-- ======= Portfolio Details Section ======= -->
+    <section id="portfolio-details" class="portfolio-details">
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper-container">
+              <div class="swiper-wrapper align-items-center">
+
+                <div class="swiper-slide">
+                  <img src="static/assets/img/portfolio/portfolio-4.png" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="static/assets/img/portfolio/Omnifood_ (2).png" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="static/assets/img/portfolio/Omnifood_ (3).png" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="static/assets/img/portfolio/Omnifood_ (4).png" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="static/assets/img/portfolio/Omnifood_ (5).png" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="static/assets/img/portfolio/Omnifood_ (6).png" alt="">
+                </div>
+                <div class="swiper-slide">
+                  <img src="static/assets/img/portfolio/Omnifood_ (7).png" alt="">
+                </div>
+<!--                <div class="swiper-slide">-->
+<!--                  <img src="static/assets/img/portfolio/portfolio-details-8.jpg" alt="">-->
+<!--                </div>-->
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category</strong>: Omnifood</li>
+                <li><strong>Client</strong>: For Self</li>
+                <li><strong>Project date</strong>: 12 August,2021</li>
+                <li><strong>Project URL</strong>: <a href="https://jatinverma85276.github.io/OmniFood-Website/">Omnifood</a></li>
+              </ul>
+            </div>
+            <div class="portfolio-description">
+              <h2>This is an fully fleged responsive static Omnifood Website</h2>
+              <p>
+                Static Responsive food website to get knowledge about any food.
+                For more Information You have to visit this website 👆👆.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Details Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+
+{% include 'footer.html' %}
